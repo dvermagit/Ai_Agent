@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-import { generateObject, generateText } from "ai";
+import { generateObject } from "ai";
 import { google } from "@ai-sdk/google";
 import readlineSync from "readline-sync";
 import { z } from "zod";
