@@ -82,7 +82,6 @@ const messages = [{ role: "system", content: SYSTEM_PROMPT }];
 
 while (true) {
   const query = readlineSync.question(">> ");
-
   const q = {
     type: "user",
     user: query,
